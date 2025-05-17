@@ -1,0 +1,459 @@
+.about * {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.about table {
+    width: 100%;
+}
+
+/* Title */
+.about #title {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+/* Navigation Bar - Converted to Buttons */
+.about .navBar {
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+/* Banner */
+.about img[src$="Images/Logo.jpg"]{
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Keep it square to maintain the circle */
+    border-radius: 5%;
+    object-fit: cover;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+}
+
+.about .definition {
+    text-align: center;
+    font-size: 20px;
+}
+
+.about .navigation {
+    background-color: #6f4e37; /* Coffee brown */
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px 10px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    width: 200px;
+}
+
+
+/* Videos */
+.about .coffeeVideo {
+    width: 80%;
+    max-width: 500px;
+    height: 250px;
+    margin: 10px 0;
+    border-radius: 10px;
+    margin-left: 500px
+}
+
+
+
+/* Style Back to Top and Go to Bottom links as buttons */
+.about a[href="#title"],.about a[href="#bottomPage"] {
+    display: inline-block;
+    background-color: #6f4e37; /* Coffee brown */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 5px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+    margin-top: 10px;
+    width: 400px;
+
+}
+
+
+
+.about td {
+    max-width: 12%;
+    width: 100px;
+}
+
+.about .coffeeImg {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about img[src$="Images/CoffeeDrop.jpg"]{
+    width: 1000px; /* Adjust as needed */
+    height: 1000px; /* Keep it square to maintain the circle */
+    border-radius: 50%;
+    object-fit: cover;
+    position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.about {
+    /*background-color: #f5ebe0;*/
+    background-color: #F5F5DC;
+}
+
+/* Coffee Sections */
+.about .coffee {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Meet The Team */
+.about table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.about .teamMember {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 5px solid black; /* Lighter coffee color outline */
+}
+
+.about .label {
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* Footer */
+.about footer {
+    background-color: #4a2c2a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.about .contacts {
+    margin-top: 10px;
+}
+.home body {
+    background-color: #F5F5DD;
+}
+
+.home .imgBanner{
+    position:absolute;
+    background:white;
+    width:1530px;
+    opacity:0.6;
+    top:0;
+    left:0;
+
+}
+
+.home header{
+    position:absolute;
+    top:30px;
+    text-align: center;
+    font-size:72px;
+    z-index:1;
+}
+
+.home .navigation{
+    position:absolute;
+    border: 2px solid gray;
+    background-color: white;
+    color:black;
+    border-radius:20px;
+    font-size:30px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    height:40px;
+    width:150px;
+    z-index:1;
+}
+
+.home .navigation[href^="home.html"]{
+    top: 15px;
+    right: 390px
+}
+
+.home .navigation[href^="order.html"]{
+    top: 15px;
+    right: 210px
+}
+
+.home .navigation[href^="about.html"]{
+    top: 15px;
+    right: 30px
+}
+.home hr{
+    display: none;
+}
+
+.home #welcome{
+    position:absolute;
+    text-align: center;
+    z-index:1;
+    font-size:36px;
+    top:440px;
+    left:360px;
+    width:800px;
+}
+
+.home button{
+    position:absolute;
+    background:white;
+    border:2px solid gray;
+    top:720px;
+    left:560px;
+
+    height:98px;
+    width:300px;
+    font-size:36px;
+    border-radius:20px;
+    z-index:1;
+}
+.home a[href^="#bottomPage"]{
+    position:absolute;
+    color:black;
+    text-decoration:none;
+    top:980px;
+    left:30px;
+    width:190px;
+
+    font-size:24px;
+    z-index:1;
+}
+
+.home img[src$="Images/CoffeeCup.jpg"]{
+    position:absolute;
+    top:1080px;
+    left:100px;
+    height:560px;
+    width:560px;
+    border-radius:20px;
+    border:10px solid black;
+}
+
+.home .coffee h2{
+    position:absolute;
+    top:1080px;
+    left:720px;
+    font-size:36px;
+    font-weight:bold;
+    width:600px;
+}
+.home .coffee ol{
+    border:2px solid black;
+    position:absolute;
+    top:1180px;
+    left:720px;
+    width:660px;
+    height:420px;
+    align:middle;
+    border-radius:20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.home .definition{
+    border:2px solid black;
+    position:absolute;
+    top:1680px;
+    left:100px;
+    width:1280px;
+    height:230px;
+    font-size:20px;
+    border-radius:20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.home #bottomPage.definition{
+    position:absolute;
+    top:1780px;
+    left:100px;
+    width:1280px;
+    height:200px;
+    border:none;
+    font-size:20px;
+    border-radius:20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.home a[href^="#title"]{
+    position:absolute;
+    color:black;
+    text-decoration:none;
+    top:2045px;
+    width:150px;
+    right:30px;
+
+    font-size:24px;
+    z-index:1;
+}
+
+.home footer{
+    position:absolute;
+    top:2080px;
+    left:50px;
+    width:1430px;
+    height:150px;
+    border-top:2px solid black;
+    text-align: center;
+
+}
+
+
+
+.order * {
+    width: 100%;
+    font-family: 'San Francisco', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.order body {
+    background-color: white;
+    color: #4b3832;
+    text-align: center;
+    font-size: 18px;
+}
+
+.order header h1, .order footer p {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 2.5rem;
+    color: #b8860b;
+}
+
+.order .navBar {
+    background-color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.order .navigation {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.order .navigation:hover {
+    color: #6a0572;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.order h2 {
+    font-family: 'San Francisco', sans-serif;
+    font-size: 2rem;
+    color: #d72631;
+}
+
+.order .menuImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.order .coffeeImg,
+.order .coffeeVideo,
+.order .teamMember,
+.order .imgBanner {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.order .coffeeVideo {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.order .label {
+    font-size: 1.1rem;
+    font-family: 'San Francisco', sans-serif;
+    color: #4b3832;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.order input, .order select {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid #d72631;
+    border-radius: 8px;
+    margin: 5px;
+    width: 90%;
+    max-width: 300px;
+}
+
+.order input[type="submit"] {
+    background-color: #ff6f61;
+    color: white;
+    font-weight: bold;
+}
+
+.order input[type="submit"]:hover {
+    background-color: #d72631;
+    cursor: pointer;
+}
+
+.order footer {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+}
+
+.order .coffee {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
